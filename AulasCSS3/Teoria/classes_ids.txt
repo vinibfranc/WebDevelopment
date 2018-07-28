@@ -1,0 +1,2 @@
+Id: identificador único
+Classe: pode ser usada diversas vezes

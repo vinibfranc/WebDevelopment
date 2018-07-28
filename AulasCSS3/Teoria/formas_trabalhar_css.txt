@@ -1,0 +1,3 @@
+External style sheet
+Internal style sheet
+Inline style
