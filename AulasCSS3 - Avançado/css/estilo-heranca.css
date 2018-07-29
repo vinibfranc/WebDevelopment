@@ -1,0 +1,33 @@
+/* Herança: classes mais específicas herdam formatações das mais genéricas */
+/* Especificidade: regras de precedência */
+
+/*body {
+	color: red;
+	border: 1px solid blue; border e background não são herdados
+	background: gray;
+}*/
+
+/*#pagina p {
+	color: pink !important;
+}
+
+#pagina p {
+	color: red;
+}*/
+
+/* Se seletor for mais específico que outro, a regra mais específica será aplicada */
+* {
+	color: black;
+}
+
+h2 { /* 3 */
+	color: blue;
+}
+
+h2.verde { /* 2 */
+	color: green;
+}
+
+h2#amarelo { /* 1 */
+	color: yellow;
+}
