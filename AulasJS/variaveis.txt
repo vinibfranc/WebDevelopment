@@ -1,0 +1,15 @@
+Tipos:
+	- String
+	- Number
+	- Boolean
+
+Regras para declaração
+	- Não podem ser iniciadas com número, apenas com letras ou "_"
+	- Não podem ser utilizados caracteres especiais como "c", "^", "~"
+	- Não podem ser iguais as palavras reservadas da linguagem
+
+Declaração:
+	- var
+	- let
+
+JS é Case sensitive
