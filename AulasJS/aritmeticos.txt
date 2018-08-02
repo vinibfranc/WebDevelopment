@@ -1,0 +1,8 @@
+Operadores aritméticos
+-Adição
+-Subtração
+-Multiplicação
+-Divisão
+-Módulo
+-Incremento (pré ou pós)
+-Decremento (pré ou pós)

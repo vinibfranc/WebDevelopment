@@ -1,0 +1,19 @@
+if(condição) {
+	
+}
+else if(condição) {
+	
+}
+else {
+	
+}
+
+Comparação (condicionais)
+-Igual
+-Idêntico (===)
+-Diferente
+-Não idêntico (!==)
+-Menor
+-Maior
+-Menor ou igual
+-Maior ou igual
