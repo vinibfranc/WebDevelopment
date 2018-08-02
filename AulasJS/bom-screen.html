@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BOM-Screen</title>
+		<meta charset="utf-8">
+
+
+		<script>
+		
+		//Interagir com tela do Browser (informações de altura, largura, etc)
+		var altura = window.screen.height
+		var largura = window.screen.width
+
+		document.write('Altura do navegador é: '+altura+'<br>');
+		document.write('Largura do navegador é: '+largura+'<br>');
+
+		if(largura < 500) {
+			document.write('Lógica para impressao do menu versão mobile');
+		}else {
+			document.write('Lógica para impressao do menu versão desktop');
+		}
+
+
+
+		
+
+		</script>
+
+	</head>
+	<body>
+
+	</body>
+</html>

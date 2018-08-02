@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Foreach</title>
+		<meta charset="utf-8">
+
+
+		<script>
+
+			var lista_funcionarios = ['Viviane','Rosângela','Miguel','Lucas','Fernanda'];
+
+			//usando wrapper
+			var f = function(valor, indice) {
+				console.log(valor, indice);
+			}
+
+			lista_funcionarios.forEach(f);
+
+			/*
+			console.log(lista_funcionarios);
+			document.write(lista_funcionarios[3]+'<br>');
+
+			//pode usar só valor, valor e índice ou os 3 parâmetros
+			lista_funcionarios.forEach(function(valor, indice, array){
+				console.log('índice: '+indice+' | valor: '+valor);
+
+				if(valor == 'Lucas') {
+					array[indice] = 'Um novo valor';
+				}
+
+			});
+
+			document.write(lista_funcionarios[3]);
+			console.log(lista_funcionarios);
+			*/
+
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+
+</html>

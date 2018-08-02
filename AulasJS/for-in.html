@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>For in</title>
+		<meta charset="utf-8">
+
+
+		<script>
+
+			//var lista_convidados = ['Vini','Andressa','José','Maria','Ana'];
+
+			var lista_convidados = [];
+			
+			lista_convidados['a'] = 'Vini';
+			lista_convidados[10] = 'Andressa';
+			lista_convidados['zebra'] = 'José';
+			lista_convidados[-1] = 'Maria';
+			lista_convidados[true] = 'Ana';
+
+
+			console.log(lista_convidados);
+
+			for(var x in lista_convidados) {
+				console.log('Indice '+x+' Valor: '+lista_convidados[x]);
+			}
+
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+
+</html>

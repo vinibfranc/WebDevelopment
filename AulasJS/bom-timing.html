@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BOM - Timing</title>
+		<meta charset="utf-8">
+
+
+		<script>
+			
+			//executa uma vez após o tempo informado
+			//setTimeout(function() {document.write('Teste')}, 5000);
+
+			var i = 5;
+
+			var x = setInterval(function() {
+				document.write(i+'<br>')
+				i--
+
+				if(i === 0) {
+					clearTimeout(x);
+					//window.location.reload();
+				}
+			}, 1000);
+
+			//sempre executa ação após período informado
+			//setInterval(function() {document.write('Teste')}, 2000);
+
+		</script>
+
+	</head>
+	<body>
+
+		
+	</body>
+</html>
