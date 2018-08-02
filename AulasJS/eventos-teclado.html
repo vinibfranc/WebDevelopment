@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eventos do teclado</title>
+		<meta charset="utf-8">
+
+
+		<script>
+
+			function acao1() {
+				alert('evento disparado');
+			}
+			
+
+		</script>
+
+	</head>
+	<body>
+		<!-- 
+			Quando pressionar tecla (não apresenta ela, só depois)
+		<input type="text" onkeydown="acao1()">-->
+
+		<!-- 
+			Quando pressionar tecla (apresenta ela)
+		<input type="text" onkeyup="acao1()">
+		-->
+
+		<!-- 
+			Só dispara quando o que foi digitado é um caracter-->
+		<input type="text" onkeypress="acao1()">
+
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flexibilidade de parâmetros</title>
+		<meta charset="utf-8">
+
+
+		<script>
+
+			function somaNumeros (a, b) {
+				b = b === undefined ? 0 : b;
+				return a + b;
+			}
+
+			console.log(somaNumeros(7,7));
+			console.log(somaNumeros(7,7,9,10,11));
+			console.log(somaNumeros(7));
+			console.log(somaNumeros());
+
+		</script>
+
+	</head>
+	<body>
+
+	</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Funções</title>
+		<meta charset="utf-8">
+
+
+		<script>
+
+			//sem retorno
+			/*function calcularAreaTerreno (largura, comprimento) {
+
+				//lógica
+				var area = largura * comprimento;
+				document.write('O terreno possui: '+area);
+			}
+
+			calcularAreaTerreno(5, 8);
+			*/
+
+			//com retorno
+			function calcularAreaTerreno (largura, comprimento) {
+
+				//lógica
+				var area = largura * comprimento;
+				return area;
+			}
+
+			var larg = prompt('Digite a largura do terreno');
+			var comp = prompt('Digite o comprimento do terreno');
+			var result = calcularAreaTerreno(larg, comp);
+
+			document.write('O terreno possui: '+result);
+
+		</script>
+
+	</head>
+	<body>
+
+	</body>
+</html>

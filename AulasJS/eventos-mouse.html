@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eventos do mouse</title>
+		<meta charset="utf-8">
+
+
+		<script>
+
+			function acao() {
+				alert('Elemento foi clicado!');
+			}
+
+			function acao2() {
+				alert('Cursor do mouse deixou a região do elemento');
+			}
+
+
+		</script>
+
+	</head>
+	<body>
+		<!--
+			Um clique
+			<div onclick="acao()" style="background: #ccc; width: 150px; height: 150px;"></div>
+		-->
+
+		<!--
+			Dois cliques
+		<div ondblclick="acao()" style="background: #ccc; width: 150px; height: 150px;"></div>
+		-->
+
+		<!--
+			Depois de clicar
+		<div onmouseup="acao()" style="background: #ccc; width: 150px; height: 150px;"></div>
+		-->
+
+		<!--
+			Passar mouse em cima
+		<div onmouseover="acao()" style="background: #ccc; width: 150px; height: 150px;"></div>
+		-->
+
+		<!--
+			Quando tira o mouse
+		<div onmouseout="acao()" style="background: #ccc; width: 150px; height: 150px;"></div>
+		-->	
+
+		
+		<div onclick="acao()" onmouseout="acao2()" style="background: #ccc; width: 150px; height: 150px;"></div>
+	
+
+
+	</body>
+</html>
