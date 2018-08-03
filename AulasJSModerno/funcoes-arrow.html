@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funções Arrow</title>
+	<meta charset="utf-8">
+	<!-- Load Babel -->
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<!-- Your custom script here -->
+	<script type="text/babel">
+		
+		/*
+
+		Usando funções anônimas
+
+		let quadrado = function(x) {
+			return x * x
+		}
+
+		document.write(quadrado(3))*/
+
+		/*
+
+		Usando arrow 
+
+		let quadrado = (x) => x * x //return implícito
+
+		document.write(quadrado(3))*/
+
+		
+		/*
+
+		Usando funções anônimas
+
+		let parOuImpar = function(numero) {
+			if(numero % 2 === 0) {
+				return 'Par'
+			}else {
+				return 'Ímpar'
+			}
+		}
+
+		document.write(parOuImpar(7))*/
+
+		/*
+
+		Usando arrow*/
+
+		let parOuImpar = numero => numero % 2 === 0 ? 'Par' : 'Ímpar' //return implícito
+
+		document.write(parOuImpar(4))
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
