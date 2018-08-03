@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Const</title>
+	<meta charset="utf-8">
+	<!-- Load Babel -->
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<!-- Your custom script here -->
+	<script type="text/babel">
+		
+		const SERIE = 'Breaking Bad'
+
+		function x () {
+			const SERIE = 'The Walking Dead'
+			console.log('Dentro da função: '+SERIE)
+		}
+
+		x()
+
+		console.log('Escopo global: '+SERIE)
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

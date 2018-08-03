@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Var e Let</title>
+	<!-- Load Babel -->
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<!-- Your custom script here -->
+	<script type="text/babel">
+
+	//3 escopos: global, função e bloco
+
+	//VAR --> hoisting (içamento) para escopo superior (no escopo de bloco)
+
+	/*var serie = 'Friends'
+
+	function x() {
+
+		var serie = 'Game of Thrones'
+
+		console.log('Função: '+serie)
+
+		if(true) {
+			console.log('Bloco dentro da função: '+serie)
+		}
+	}
+
+	x()
+
+	if(true) {
+			console.log('Escopo global: '+serie)
+	}*/
+
+	//LET --> preserva escopo no qual foi criado 
+	if(true) {
+		let serie = 'Friends'
+	}
+
+	//Dá erro, pois é de bloco e não há hoisting
+	console.log(serie)
+
+
+
+
+	
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

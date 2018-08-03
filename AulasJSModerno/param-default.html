@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parametros Default</title>
+	<meta charset="utf-8">
+	<!-- Load Babel -->
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<!-- Your custom script here -->
+	<script type="text/babel">
+		
+		function contarUmaHistoria(personagem = 'Fubá', atividade = 'rolar', nome_dono = 'João') {
+			document.write(`Era uma vez um cachorro chamado ${personagem}, ele adorava ${atividade}, seu dono era o ${nome_dono} e eles viviam felizes!`)
+		}
+
+		contarUmaHistoria()
+		//contarUmaHistoria('Repolho', 'Enterrar ossos', 'Pedro')
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
