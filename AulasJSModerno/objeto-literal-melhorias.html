@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Melhorias do ES6 para objetos literais</title>
+	<meta charset="utf-8">
+	<!-- Load Babel -->
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<!-- Your custom script here -->
+	<script type="text/babel">
+		
+	let nome = 'Vinícius'
+	let idade = 20
+	let sexo = 'Masculino'
+	let profissao = 'Informata Biomédico'
+
+	let objeto = {
+		nome: nome,
+		idade: idade,
+		sexo: sexo,
+		profissao: profissao, 
+		exibirResumo: function() {
+			console.log(`${this.nome}, ${this.idade} anos, ${this.sexo} é ${this.profissao}`)
+		}
+	}
+
+	console.log(objeto)
+	objeto.exibirResumo()
+
+	let objeto2 = {
+		nome, //nome = nome variavel / valor = valor da variavel
+		idade,
+		sexo,
+		profissao, 
+		exibirResumo() {
+			console.log(`${this.nome}, ${this.idade} anos, ${this.sexo} é ${this.profissao}`)
+		}
+	}
+
+	console.log(objeto2)
+	objeto2.exibirResumo()
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
