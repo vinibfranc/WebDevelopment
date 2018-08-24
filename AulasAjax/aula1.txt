@@ -1,0 +1,11 @@
+Acrônimo de Asynchronous JavaScript And XML
+
+Metodologia de programação que possibilita a comunicação assíncrona entre front-end e back-end de aplicações Web
+
+Potencializou a criação do conceito de web 2.0
+
+Requisições síncronas: quando efetuamos a requisição, browser fica esperando resposta do servidor (uma de cada vez)
+
+	Aguardar resposta antes de liberar aplicação para usuário final
+
+Requisições assíncronas: browser dispara várias requisições, sem necessidade de sincronismo (paralela)
