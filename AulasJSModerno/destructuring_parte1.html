@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Destructuring</title>
+	<meta charset="utf-8">
+	<!-- Load Babel -->
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<!-- Your custom script here -->
+	<script type="text/babel">
+		
+		//destructuring --> tira valores de dentro de estrutura
+
+		let frutas = ['Abacaxi', 'Uva', 'Pera', 'Mamão']
+		//let [a, b, , c] = frutas //pular um índice
+		let [a, b, c, d, e = 'Banana'] = frutas
+		//console.log(a, b, c, d, e)
+
+		let coisas = [['Abacaxi', 'Uva', 'Pera', 'Mamão'], ['José', 'Maria']]
+		let [, [, n2]] = coisas
+		console.log(n2)
+		let [[, , n3]] = coisas
+		console.log(n3)
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
