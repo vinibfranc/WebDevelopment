@@ -9,3 +9,14 @@ Requisições síncronas: quando efetuamos a requisição, browser fica esperand
 	Aguardar resposta antes de liberar aplicação para usuário final
 
 Requisições assíncronas: browser dispara várias requisições, sem necessidade de sincronismo (paralela)
+
+----Solução-----
+Uma página só para solicitações dinâmicas
+
+----Estados da requisição----
+STATE != STATUS
+0: requisição não iniciada
+1: conexão estabelecida com servidor
+2: requisição recebida pelo servidor
+3: processamento de requisição
+4: requisição finalizada

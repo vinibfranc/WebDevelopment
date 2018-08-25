@@ -1,0 +1,8 @@
+XML: estabelece padrão de comunicação entre sistemas
+Um sistema exporta o XML e o outro interpreta e vice-versa
+
+Exemplo: TISS para comunicação entre operadora de saúde e ANS
+
+Parse de XML para JSON: 
+-XML não suportado nativamente por JS
+-XML retorna texto puro
