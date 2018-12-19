@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<meta charset="utf-8">
+
+	<!--<script src="jquery-3.3.1.min.js"></script>-->
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	
+	<script>
+		$(document).ready(() => {
+			console.log($('#div1').html())
+			console.log($('#div2').html())
+			$('#div1').html('<strong>Eu sou o valor novo</strong>')
+		})
+	</script>
+</head>
+<body>
+	
+	<div id="div1" style="border: solid 1px #000; width: 150px; height: 150px;">
+		<a href="#">Teste</a>
+		<p>Esse é outro teste</p>
+		<div>Outro texto qualquer</div>
+	</div>
+
+	<div id="div2" style="border: solid 1px #000; width: 150px; height: 150px;">
+		Div 2
+	</div>	
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<meta charset="utf-8">
+
+	<!--<script src="jquery-3.3.1.min.js"></script>-->
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	
+	<script>
+		$(document).ready(() => {
+			$('img').attr('src')
+			$('img').attr('border')
+			$('img').attr('src', 'imagens/esfera_2.png')
+			$('img').attr('border', 20)
+			console.log($('div').attr('style'))
+			$('div').attr('style', style="background-color: blue; width: 200px; height: 200px;")
+			$('input').attr('value', 'Eu continuo sendo um input')
+		})
+	</script>
+</head>
+<body>
+	
+	<img src="imagens/esfera_1.png" border="5">
+	
+
+	<div style="background-color: red; width: 100px; height: 100px;">
+	</div>
+
+	<input type="text" value="Eu sou um input">
+</body>
+
+</html>

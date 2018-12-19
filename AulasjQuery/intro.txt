@@ -1,0 +1,11 @@
+O que é?
+Biblioteca JS (wirte less, do more)
+
+Recursos:
+-Seleção de manipulação de elementos HTML
+-Navegação pelo DOM
+-Manipulação de CSS
+-Eventos
+-Efeitos e animações
+-Ajax
+-Plugins
