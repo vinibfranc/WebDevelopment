@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<meta charset="utf-8">
+
+	<!--<script src="jquery-3.3.1.min.js"></script>-->
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	
+	<script>
+		$(document).ready(() => {
+
+			//inserindo elementos filhos do elemento selecionado
+
+			$('#lista1').prepend('<li>Item 0 - prepend</li>')
+			$('#lista1').append('<li>Item 4 - append</li>')
+
+			//substituindo todo o conteúdo da tag
+
+			//$('#lista1').html('<p>Eu substitui todo o conteúdo que estava aqui!</p>')
+
+			$('#lista2').prepend('<div>Item 0 - prepend</div>')
+			$('#lista2').append('<div>Item 4 - append</div>')
+
+			//inserindo elementos irmãos do elemento selecionado
+			
+			$('#lista2').after('<p>Eu fui inserido após a div</p>')
+
+			$('#lista2').before('<p>Eu fui inserido antes da div</p>')
+	
+			$('#linha').after('<p>Eu fui inserido após o hr</p>')
+
+			//removendo todo o conteúdo da tag
+
+			$('#linha').remove()
+
+		})
+	</script>
+</head>
+<body>
+	
+	<ul id="lista1">
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ul>
+
+	<div id="lista2">
+		<div>Item 1</div>
+		<div>Item 2</div>
+		<div>Item 3</div>
+	</div>
+
+	<hr id="linha">
+		
+</body>
+
+</html>
